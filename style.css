@@ -13,13 +13,13 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 main{
 
     background-color: white;
-    max-width: 650px;
+    min-width: 650px;
     height: auto;
     margin: auto;
     border-radius: 8px;
@@ -130,10 +130,10 @@ li{
     
 }
 
-@media screen and (m-width = 600px) {
+@media screen and (max-width = 600px) {
 
     .row{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     
 }
