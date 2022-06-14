@@ -132,7 +132,7 @@ li{
     
 }
 
-@media (max-width: 400px) {
+@media (max-width: 350px) {
     .row {
 		flex-direction: column;
 	}
